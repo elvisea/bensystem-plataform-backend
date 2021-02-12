@@ -1,1 +1,1 @@
-web: npx typeorm migration:run && yarn start
+web: yarn start
