@@ -2,7 +2,7 @@
   {
     "name": "default",
     "type": "postgres",
-    "host": "postgres://fcerdtajdfdtpx:10653292fa63406bf0706deaa7224eadad321988cd259c62eb1472b50661017c@ec2-100-24-139-146.compute-1.amazonaws.com:5432/dd77ff3b3i5irc",
+    "host": "localhost",
     "port": 5432,
     "username": "postgres",
     "password": "docker",
