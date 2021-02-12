@@ -7,6 +7,7 @@
     "build": "tsc",
     "dev": "tsnd --transpile-only --ignore-watch node_modules src/server.ts",
     "typeorm": "tsnd ./node_modules/typeorm/cli.js",
+    "run-migration": "yarn typeorm migration:run", 
     "start": "node dist/server.js"
   },
   "dependencies": {
