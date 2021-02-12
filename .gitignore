@@ -1,16 +1,20 @@
-.idea/
-.vscode/
-node_modules
-build/
-temp/
-.env
-coverage
 # ormconfig.json
+node_modules
+yarn.lock
+
+.env
 dist
+
+uploads/*
+!uploads/.gitkeep
 
 tmp/*
 !tmp/.gitkeep
 
-uploads/*
-!uploads/.gitkeep
+# .vscode/
+# build/
+# temp/
+# coverage
+
+
 
